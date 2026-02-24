@@ -1,0 +1,87 @@
+25 (Pikachu): Tuonoshock, Elettrotela, Palla Elettro, Fulmine, Surf Elettrico, Tuonobomba, Thunderstorm
+815 (Cinderace): Brace, Spazzabassa, Toppafiamma, Calcio Ardente, Tiro di Scatto, Cambio Campo, Blocco Pirotecnico
+3 (Venusaur): Fogliolama, Frustasferza, Raggio Solare, Megasascia, Danza Petali, Crescita, Bombardamento di Petali
+10103 (Ninetales Alola): Soffio Ghiaccio, Ululato, Bufera, Raggio Ghiaccio, Aurora, Palla Aurora, Tempesta di Neve Polare
+282 (Gardevoir): Psioraggio, Teletrasporto, Psichico, Luna di Sogno, Palla Lunare, Futurovisione, Divinazione Psichica
+658 (Greninja): Idrobolla, Doppiochop, Shuriken d'Acqua, Aquataglio, Schizzofango, Sostituto, Tempesta Ninja
+845 (Cramorant): Soffiaurale, Tuffo, Tempestaurale, Voracibecco, Surfata, Tuffobomba, Starnazzo Predatore
+700 (Sylveon): Scoppio, Fascino, Voce Ipnotica, Stelle Misteriose, Raggi Fata, Palla Lunare, Sinfonia Splendente
+724 (Decidueye): Fogliolama, Azione Fantasma, Feritoia, Passo Umbra, Tiro Ombra, Freccia Spiritica, Rapina d'Ombra
+471 (Glaceon): Soffio Ghiaccio, Pugnalata Ghiaccio, Bufera, Raggio Ghiaccio, Lama di Ghiaccio, Grandine, Glaciazione Totale
+196 (Espeon): Psioraggio, Psicoscossone, Psichico, Mattino Sole, Psicoscossone Potenziato, Futurovisione, Psico Ultime
+655 (Delphox): Brace, Fuocofatuo, Lanciafiamme, Fiamma Mistica, Anello di Fuoco, Ignifugo, Portale di Fuoco
+884 (Duraludon): Dragorespiro, Testa di Ferro, Cannone Drago, Granmeteora, Corpo Acciaio, Blocco Drago, Dinamax Cannone
+887 (Dragapult): Dragorespiro, Onda Ombrosa, Palla Fantasma, Draco Meteorite, Lancia Fantasma, Dragoartiglio, Furia Fantasmatica
+151 (Mew): Bolla, Frustata, Surf Cosmico, Raggio Solare, Palla Ombra, Onda Psichica, Surf Cosmico Finale
+609 (Chandelure): Brace, Fuocofatuo, Voltrappollo, Fiamma Sacra, Sfera Ombra, Onda Oscura, Spirito Spettrale
+818 (Inteleon): Idrobolla, Schizzo, Idropulsar, Tiro Mortale, Raggio Ghiaccio, Trappola Ghiaccio, Idrocolpo da Cecchino
+1008 (Miraidon): Carica, Tuono, Elettrosfera, Turbine Elettrico, Folgore Drago, Dragopulso, Hadrón Métron
+663 (Talonflame): Brace, Taglio Aria, Bruciosalto, Volo, Piroetta Ardente, Fiammata, Fiamma Volante Unite
+359 (Absol): Lama Notturna, Portento, Sabiolama, Perseguita, Coltellata, Contrattacco, Lama del Presagio
+94 (Gengar): Ipnosi, Sfera Tenebra, Psicotaglio, Sonnifero, Vento Lama, Assorbimento, Maxirisucchio
+807 (Zeraora): Carica Fulmine, Gancio Plasma, Tuono, Surf Elettrico, Piroetta Elettrica, Voltacrobazia, Plasma Fiumi
+571 (Zoroark): Artigli Ombra, Notte Oscura, Zanna Buia, Cambio di Lato, Notte Oscura Potenziata, Tiro Oscuro, Illusione Finale
+85 (Dodrio): Beccata, Agilità, Triplocolpo, Beccolancio, Velocità Massima, Spintone, Tripla Rampa
+470 (Leafeon): Fogliolama, Scatto Rapido, Coltellata Foglia, Tempesta di Foglie, Foglioguardia, Folgorafoglia, Lama Verde Finale
+911 (Meowscarada): Fogliolama, Passo Umbra, Danza Petali Oscuri, Arma Segreta, Passoerboso, Inganno Floreale, Danza delle Lame Finali
+6 (Charizard): Brace, Taglio Fuoco, Lanciafiamme, Fuocovolante, Flappe, Volo Ardente, Serafino di Fuoco
+448 (Lucario): Veloce, Palla Aura, Sferzauracica, Pugno Velocissimo, Sfera d'Aura, Capobotta, Sfera d'Aura Definitiva
+68 (Machamp): Pugno Karate, Vibrapugni, Pugno Dinamico, Incrocio, Controcolpo, Pugno Focale, Pugni Incrociati Unite
+445 (Garchomp): Attacco Rapido, Fossa, Taglio Drago, Terremoto, Giro Veloce, Ascensione Drago, Atterraggio Draconico
+149 (Dragonite): Tuono, Coda Drago, Drago Meteorite, Iper Raggio, Lanciafiamme, Giro Veloce, Iper Raggio Draconico
+763 (Tsareena): Fogliolama, Spallata, Scalcio Reale, Palpito Erboso, Danza Petali, Sgambetto Royale, Calcio Reale Unite
+681 (Aegislash): Spadolancio, Testa di Ferro, Colpo Sacro, Danza delle Spade, Taglio Oscuro, Forma Scudo, Danza Regale delle Lame
+212 (Scizor): Presa a Taglio, Tagliodoppio, Puntura a X, Danza Spada, Pugno Acciaio, Acciaiotaglio, Furia d'Acciaio
+248 (Tyranitar): Morso, Lanciaroccioni, Terremoto, Marranzana, Pietroltomba, Grancraniata, Dinamax Tirannico
+794 (Buzzwole): Pugno Dinamico, Superforza, Gonfiatura, Pugni Furia, Lavamassa, Assorbicorpo, Super Pompaggio
+184 (Azumarill): Cascata, Rimbalzo, Idropompa, Spruzzone, Palla Gioco, Acquatuffo, Vortice Idrico
+376 (Metagross): Chitina Chiara, Testa di Ferro, Psicocaos, Punzopugno, Corpo Magnetico, Psichico, Meteorite, Pugno Psichico Finale
+892 (Urshifu): Colpo Infallibile, Pugno Veloce, Scatto di Lotta, Pugni Rapidissimi, Punta Oscura, Raffica di Pugni, Cascata di Calci, Colpo Unite Singolo
+143 (Snorlax): Fortezza, Sforzo, Corpo a Corpo, Amnesia, Blocco, Corpata, Schiantata, Iper Snorlax
+80 (Slowbro): Pigrizia, Confusione, Acquanello, Psichico, Telecinesi, Surf, Stordimento Psichico, Mega Slowdown
+558 (Crustle): Conchivoglia, Taglio di Roccia, Scissoraggio, Pugno Forbice, Taglio Incrociato, Frana, Difesa Corazza, Frana Devastante
+820 (Greedent): Scorpacciatarla, Morso, Rollio Paffuto, Dentimorso, Peso Massimo, Bacca Spin, Schiacciato, Scorpacciata Finale
+709 (Trevenant): Bosco Maledetto, Maledizione, Frustata, Boschivoro, Orrore Oscuro, Attaccalemanto, Tempesta di Rami, Foresta Oscura Unite
+473 (Mamoswine): Robustezza, Zampata, Nebbia di Ghiaccio, Grandine, Zanna Ghiaccio, Terremoto, Carica Ghiaccio, Avalanche Unite
+9 (Blastoise): Idrogetto, Acquanello, Surf, Fortezza Acqua, Idropompa, Rapido Vortice, Idrocannone Unite
+197 (Umbreon): Graffiante, Bacio Drenante, Maloccio, Sguardo Oscuro, Lunattacco, Morso Oscuro, Aura Nera Unite
+131 (Lapras): Copertura Acquatica, Idrogetto, Raggio Ghiaccio, Surf, Canto, Nebbia, Grandinata, G-Max Risonanza
+830 (Eldegoss): Semiluce, Fogliolama, Nebbia, Pollenvento, Erba Morsa, Cotone Pronto, Vento Erboso, Polline d'Oro
+122 (Mr. Mime): Barriera Psichica, Confusione, Schermatura, Psichico, Vuoto Totale, Barriera, Duplica, Magia Barriera Unite
+40 (Wigglytuff): Aria Beffarda, Cantinnola, Copia, Sonagliocanzone, Ipnosi, Allettamento, Onda Malefica, Fulgore Magico Unite
+242 (Blissey): Cura Naturale, Dolcebacio, Rinforzo, Uovo Morbido, Ammorbidisci, Sano Sano, Terapia, Felicità Condivisa
+720 (Hoopa): Inganno del Portale, Psicobomba, Portale Oscuro, Psichico, Spazio Oscuro, Portale Alleato, Anello Oscuro, Vortice Dimensionale
+36 (Clefable): Magia Guaritrice, Doppio Schiaffo, Canto Lunare, Palla Lunare, Meteorite, Magia Lunare, Polvere Magica, Miracolo Cosmico
+764 (Comfey): Triage, Fogliolama, Erba Vita, Danza Petali, Spina Floreale, Profumoterapia, Polline Benefico, Piena Fioritura
+302 (Sableye): Prankster, Graffiante, Fuocofatuo, Occhio Magico, Tiro Gemme, Polvere Sottile, Beffa Oscura, Spettro Gioielliere
+491 (Darkrai): Brutto Sogno, Raggio Oscuro, Nascondiglio, Incubo, Sfera Oscura, Ombre Furtive, Velo Oscuro, Oscuramento Eterno
+381 (Latios): Levitate, Drago Vento, Psicoforza, Gelodrago, Luccicanza, Psicocolpo, Volo Etereo, Raggio Drago Finale
+936 (Armarouge): Armatura Bellica, Lanciafiamme, Psicobomba, Meteorarrosto, Sputo Drago Fuoco, Armatura Fuoco, Cannone Psichico, Grande Incendio Psichico
+10035 (Mega Charizard Y): Siccità, Fuoco Sacro, Soffio del Drago, Mega Lanciafiamme, Colpo Ala, Volo Solare, Cappa Fuoco, Mega Tempesta di Fuoco
+10044 (Mega Mewtwo Y): Pressione Psichica, Psicoraggio, Barriera Mentale, Psico Potenziato, Amnesia, Recupero Psichico, Mega Lancia, Psico Devastante Finale
+937 (Ceruledge): Sfida Ardente, Lama Fuoco, Soffio Sinistro, Taglio Fantasma, Lame a Croce, Velo del Fuoco, Danza Spada Fuoco, Armatura delle Fiamme Eterne
+778 (Mimikyu): Travestimento, Spettrogrida, Ombra, Giocascherzo, Vendetta, Danza Fantasma, Artiglio Ombra, Terror Travestito
+10100 (Raichu): Surf Psichico, Tuonopugno, Velo Psichico, Tuono, Folgorazione, Psicotaglio, Paravento Elettrico, Onda Psi-Elettrica
+123 (Scyther): Tecno-Abilità, Falce Aerea, Taglio Rapido, Colpo Aereo, Falce Veloce, Danza Spada, Contrattacco, Lama Finale di Scyther
+52 (Meowth): Raccolta Monete, Graffio, Moneta Furiosa, Colpo Critico, Mossa Artiglio, Lanciamonete, Doppia Schiaffo, Festa della Moneta d'Oro
+257 (Blaziken): Velocità Rapida, Fiammata, Scatto Veloce, Calcio Rovente, Spazzata Fuoco, Contrattacco Fulmineo, Scatto Ardente, Inferno Supremo
+870 (Falinks): Formazione di Combattimento, Carica Formazione, Difesa Collettiva, Attacco a Cunei, Carica Devastante, Muro di Scudi, Assalto Finale, Assalto Leggione
+130 (Gyarados): Intimidazione, Acqua Cascata, Dragopulsar, Idrovortice, Salto Acqua, Furia del Drago, Tempesta Draconica, Maelstrom del Dragone
+865 (Sirfetch'd): Determinazione Nobile, Colpo Scudo, Lama Foglia, Cresta Spada, Scudo Parry, Lancia Devastante, Prima Mossa, Carica del Cavaliere
+888 (Zacian): Spada Intrepida, Danza Spada, Vento Sacro, Taglio Mistico, Carica Eroica, Lama Fata, Sacra Spada, Colpo della Spada Eroica
+925 (Pawmot): Carica Elettrica, Tuonopugno, Cura Rivitalizzante, Doppio Shock, Danza Elettrica, Rianimazione, Sovraccarica, Maxi-Volt Totale
+10034 (Mega Charizard X): Fuoco Interiore, Volo Draconico, Artigli Fuoco, Drago Danza, Colpo Volante, Fuoco Draconico, Armatura Drago, Mega Incendio Draconico
+10067 (Mega Gyarados): Rabbia Oscura, Cascata Oscura, Vortice Oscuro, Tempesta Oscura, Sfida Oscura, Fauci Oscure, Barriera Oscura, Maelstrom Oscuro Supremo
+10071 (Mega Lucario): Aura Adattiva, Pugno Aura, Pallasfera Aura, Mega Velocità Estrema, Pugno Ombra, Aura Sfera Mega, Danza Spada Aura, Mega Aura Tempesta
+10043 (Mega Mewtwo X): Potere Illimitato, Psico-Colpo, Onda Vuoto, Psicocolpo Devastante, Grinfiacide, Psicofisico Supremo, Barriera Psichica, Mega Psicofisico Definitivo
+781 (Dhelmise): Presa dell'Ancora, Giro Ancora, Trappola Marina, Lancio Ancora, Schianto Ancora, Foresta Marina, Barriera Oceanica, Giudizio dell'Ancora Spettrale
+395 (Empoleon): Surf, Ghiacciolampo, Bolla d'Acciaio, Acqua Cannone, Ghiacciostorm, Difesa Acciaio, Blizzard Imperiale
+706 (Goodra): Rivestimento Mucoso, Drago Vento, Caramello Acido, Drago Impulso, Muco Esplosivo, Drago Danza Difensiva, Grandine di Muco, Tsunami di Muco Draconico
+245 (Suicune): Acqua Purificante, Idropompa, Vento Artico, Idrovortice, Blizzard, Nebbia Artica, Vento Sacro, Marea Glaciale di Suicune
+959 (Tinkaton): Martello da Fata, Potere Martello, Scudo di Fata, Gigantesco Martello, Lancio Martello, Fortezza di Fata, Rimbalzo Fatato, Colpo di Martello Supremo
+869 (Alcremie): Decorazione Dolce, Aroma Dolce, Nebbia Fata, Torta Esplosiva, Crema Barriera, Pioggia di Panna, Dolce Bacio, G-Max Beffa Dolce
+250 (Ho-Oh): Rigenerazione Sacra, Piuma di Fuoco, Velo Sacro, Fuoco Sacro, Colpo d'Ala Arcobaleno, Cura Sacra, Benedizione Arcobaleno, Benedizione Sacra di Ho-Oh
+380 (Latias): Levitate, Luccicanza, Tiro Magnetico, Bolla Protettiva, Raggio Drago Gemella, Volo Galattico, Psicoboost, Aiuto Psichico Gemello
+54 (Psyduck): Mal di Testa, Confusione, Idropompa, Psichico, Amnesia, Telecinesi, Barriera Psichica, Esplosione del Mal di Testa
+10196 (Rapidash Galar): Misty Surge, Vento Fata, Benedizione, Raggio Fata, Misticismo, Cura Fatata, Velo di Nebbia Fata, Corsa Fatata Suprema
+134 (Vaporeon): Idratazione, Acqua Cannone, Acqua Anello, Surf Guaritrice, Idropompa Potenziata, Dissoluzione, Marea Curativa, Onda di Guarigione Totale, Lucario, Greninja, Urshifu, Metagross, Zoroark, Snorlax

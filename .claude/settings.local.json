@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell -Command \"Add-Type -AssemblyName System.Drawing; Write-Host ''PS ok''\")",
+      "Bash(npm install:*)",
+      "Bash(node -e:*)",
+      "WebFetch(domain:pokeapi.co)",
+      "WebFetch(domain:raw.githubusercontent.com)"
+    ]
+  }
+}

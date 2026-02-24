@@ -1,0 +1,49 @@
+📘 Manuale di Localizzazione per Claude: Pokémon UNITE ITA
+1. Regole d'Oro della Localizzazione
+No Literal Translation: Mai tradurre letteralmente dall'inglese. Se una mossa si chiama Shell Smash, non è "Rottura del Guscio" ma Gettaguscio.
+
+Dual Naming: Per massimizzare la SEO e la leggibilità, usa sempre il formato: Nome Inglese (Nome Italiano). Esempio: Heavy Slam (Pesobomba).
+
+Fonti di Verità: In caso di dubbio, la priorità è: 1. Client di gioco italiano → 2. Pokémon Central Wiki → 3. Database ufficiale Pokémon.it.
+
+2. Note Specifiche per i Pokémon (Meccaniche e Nomi)
+Scyther & Scizor: È un caso di evoluzione ramificata. Se viene scelta la mossa Bullet Punch (Pugnoscarica), il Pokémon diventa Scizor (Versatile). Se viene scelta Dual Wingbeat (Ali di Doppia), resta Scyther (Velocista).
+
+Mew: Possiede la meccanica Move Reset (Reset Mosse). Può cambiare set durante la partita. Non ha una build fissa, ma diverse combinazioni (es. Solar Beam + Light Screen).
+
+Hoopa: La Unite Move lo trasforma in Hoopa Unbound (Hoopa Libero). In questa forma, le sue mosse cambiano (es. Hyperspace Fury diventa Furia Dimensionale).
+
+Zacian: Utilizza la meccanica Intrepid Sword (Spada Indomita). Deve consumare energia Aeos per potenziare le mosse.
+
+Blaziken: Non ha una Unite Move "offensiva" classica; la usa per cambiare stile tra Pugni e Calci, alternando il suo set di mosse.
+
+Aegislash: Alterna costantemente tra Blade Forme (Forma Spada) e Shield Forme (Forma Scudo). Le sue statistiche cambiano drasticamente tra le due.
+
+Zoroark: La mossa Night Slash (Nottesferza) richiede una spiegazione dettagliata sul "tempo di attivazione" (dash a catena).
+
+3. Errori Comuni da Evitare (Termini Critici)
+Swift: In UNITE è quasi sempre Cometapugno (per Espeon, Glaceon, Sylveon, Umbreon), non "Cometa".
+
+Overheat: La traduzione ufficiale in UNITE è Vampata (es. Chandelure, Blaziken).
+
+Imprison: Si traduce come Prigione (Chandelure).
+
+Sacred Fire: Per Ho-Oh è tradotto come Magifuoco.
+
+Laser Focus: Per Duraludon è Alidifesa.
+
+Mean Look: Per Umbreon è Malosguardo. È un effetto di "blocco" (non può uscire dall'area).
+
+Slowbeam: La mossa Unite di Slowbro è Sguardo Immobile. È un effetto "Bound" che ignora ogni immunità (Full Heal inclusa).
+
+4. Strumenti e Mappa (Terminologia di Gioco)
+Held Items: Usa i nomi ufficiali. Esempi chiave: Resonant Guard (Paraurti risonante), Slick Spoon (Cucchiaio prodigio), Muscle Band (Bendascudo).
+
+Battle Items: Eject Button (Pulsante fuga), Full Heal (Cura totale).
+
+Ruoli: Attacker (Attaccante), Defender (Difensore), Speedster (Velocista), All-Rounder (Versatile), Supporter (Supporto).
+
+Obiettivi: Rayquaza (non tradurre), Regis (Regirock, Regice, Registeel, Regieleki), Aeos Energy (Energia Aeos).
+
+5. Istruzione Operativa per Claude
+"Claude, ogni volta che generi una guida, incrocia i nomi delle mosse con il database fornito. Se un termine inglese non è presente nel database, chiedimi conferma prima di inventare una traduzione. Mantieni un tono tecnico da 'Coach' ma usa i nomi che i giocatori trovano sui loro smartphone in Italia."
