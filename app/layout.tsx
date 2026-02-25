@@ -41,10 +41,26 @@ export default function RootLayout({
           <Header />
           {children}
           <div style={{ padding: "20px 0", borderTop: "1px solid rgba(255,255,255,0.06)", textAlign: "center" }}>
-            <p style={{ color: "#475569", fontSize: 11, lineHeight: 1.6, maxWidth: 600, margin: "0 auto" }}>
-              Pokémon UNITE è un marchio di The Pokémon Company / TiMi Studio Group. Questo è un sito fan-made non affiliato.
+            <p style={{ color: "#64748b", fontSize: 11, lineHeight: 1.6, maxWidth: 640, margin: "0 auto" }}>
+              © 2023 Pokémon. © 1995–2023 Nintendo / Creatures Inc. / GAME FREAK inc. © 2023 Tencent. Tutti i diritti riservati.
             </p>
-            <p style={{ color: "#334155", fontSize: 11, marginTop: 8 }}>UNITE Italia — 2026</p>
+            <p style={{ color: "#64748b", fontSize: 11, lineHeight: 1.6, maxWidth: 640, margin: "6px auto 0" }}>
+              UNITE Italia è un sito fan-made non affiliato, associato, autorizzato o approvato da nessuna delle società sopracitate.
+              Questo sito fornisce esclusivamente informazioni e guide per il gioco Pokémon UNITE.
+            </p>
+            <p style={{ color: "#64748b", fontSize: 11, marginTop: 8, lineHeight: 1.6 }}>
+              Quest&apos;opera è distribuita con{" "}
+              <a
+                href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
+                target="_blank"
+                rel="noopener noreferrer"
+                style={{ color: "#94a3b8", textDecoration: "underline", textUnderlineOffset: 2 }}
+              >
+                Licenza Creative Commons Attribuzione - Non commerciale - Non opere derivate 4.0 Internazionale
+              </a>
+              .
+            </p>
+            <p style={{ color: "#475569", fontSize: 11, marginTop: 8 }}>UNITE Italia — 2026</p>
           </div>
         </div>
       </body>
