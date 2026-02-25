@@ -125,7 +125,7 @@ const HeroCard = ({ mon, rank, onSelect }: { mon: typeof HERO_POKEMON[0]; rank: 
 };
 
 export const HeroSection = ({ onSelect }: { onSelect?: (p: any) => void }) => (
-  <section style={{ padding: "20px 0 48px" }}>
+  <section style={{ padding: "20px 0 0" }}>
     <div style={{ marginBottom: 20 }}>
       <h2 style={{ color: "#f8fafc", fontSize: 28, fontWeight: 900, margin: "0 0 6px" }}>Top 10 Meta al 22 febbraio 2026</h2>
       <p style={{ color: "#64748b", fontSize: 14, margin: 0 }}>I Pokémon con il miglior win rate in partite rankate</p>
