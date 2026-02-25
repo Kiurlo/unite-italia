@@ -22,6 +22,7 @@ const exo2 = Exo_2({
 export const metadata: Metadata = {
   title: "UNITE Italia — La guida italiana a Pokémon UNITE",
   description: "Tier list, build, statistiche e guide per Pokémon UNITE in italiano.",
+  icons: { icon: "/favicon.svg" },
 };
 
 export default function RootLayout({
