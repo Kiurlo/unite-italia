@@ -38,7 +38,7 @@ export const PATCH_NOTES: PatchNote[] = [
         content: "Dal 26 febbraio lo scenario delle Ranked passerà a Rovine del Cielo di Theia (Groudon). In futuro le Ranked ruoteranno regolarmente tra tre mappe: Rayquaza, Groudon e Kyogre, ognuna con tattiche e selezioni di Pokémon diverse."
       },
       {
-        heading: "Super Parata del Panico per i 30 Anni di Pokémon",
+        heading: "Super Panic Parade per i 30 Anni di Pokémon",
         content: "Dal 27 febbraio torna la modalità Parata del Panico in versione potenziata con Pokémon della regione di Kanto: Gengar, Zapdos, Mewtwo e altri si scaglieranno contro Tinkaton! Partecipando si ottengono Icone Allenatore dei Leggendari Articuno, Zapdos e Moltres."
       },
       {
