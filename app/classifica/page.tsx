@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { POKEMON } from "../data/pokemon";
 import { PokeIcon } from "../components/common";
 
@@ -133,18 +134,21 @@ export default function ClassificaPage() {
             const delta = p.winRateChange ?? 0;
 
             return (
-              <div
+              <Link
                 key={p.id}
+                href={`/pokemon/${p.id}`}
                 className="rank-row"
                 style={{
                   display: "grid",
-                  gridTemplateColumns: "44px 52px 1fr auto auto",
+                  gridTemplateColumns: "44px 64px 1fr auto auto",
                   alignItems: "center",
                   gap: 12,
                   background: "rgba(255,255,255,0.04)",
                   border: "1px solid rgba(255,255,255,0.07)",
                   borderRadius: 12,
                   padding: "10px 16px",
+                  textDecoration: "none",
+                  cursor: "pointer",
                 }}
               >
                 {/* Rank */}
@@ -159,7 +163,7 @@ export default function ClassificaPage() {
                 </div>
 
                 {/* Avatar */}
-                <PokeIcon p={p} size={44} />
+                <PokeIcon p={p} size={58} />
 
                 {/* Nome + badge ruolo */}
                 <div>
@@ -229,7 +233,7 @@ export default function ClassificaPage() {
                 }}>
                   {delta === 0 ? "—" : `${delta > 0 ? "+" : ""}${delta.toFixed(2)}%`}
                 </div>
-              </div>
+              </Link>
             );
           })}
         </div>
