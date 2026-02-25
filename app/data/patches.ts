@@ -10,6 +10,48 @@ export interface PatchNote {
 
 export const PATCH_NOTES: PatchNote[] = [
   {
+    id: "patch-2026-02-20",
+    date: "20 Febbraio 2026",
+    title: "30° Anniversario — Leggende di Kanto e Grandi Novità",
+    tag: "Aggiornamento Maggiore",
+    tagColor: "#ef4444",
+    summary: "Articuno, Zapdos e Moltres arrivano sull'Isola di Aeos! Nuova Modalità Solo, cambiamenti al sistema mosse, Groudon torna nelle Ranked e molto altro per il 30° anniversario di Pokémon.",
+    sections: [
+      {
+        heading: "Le Leggende Originali Arrivano sull'Isola di Aeos",
+        content: "Per il 30° anniversario di Pokémon, i Leggendari di Kanto — Articuno, Zapdos e Moltres — faranno la loro comparsa nelle Unite Battle. Articuno (Difensore): crea un dominio impenetrabile con la sua bufera di neve; la Mossa Unite congela persino la speranza di vittoria avversaria. Zapdos (Attaccante): domina il campo con potenti scariche elettriche amplificate; la Mossa Unite sfonda la difesa avversaria con fulmini devastanti. Moltres (Versatile): grazie a un'incredibile capacità rigenerativa, travolge gli avversari con fiamme intense; la Mossa Unite emette un bagliore cremisi che non lascia scappare nemmeno i nemici nascosti. I tre Pokémon saranno ottenibili tramite eventi sequenziali."
+      },
+      {
+        heading: "Ottimizzazione dei Percorsi Mosse e Prezzi Licenze",
+        content: "A partire da Zapdos (27 febbraio), i nuovi Pokémon avranno un solo percorso mosse per rendere il gioco più accessibile ai principianti. Il prezzo delle nuove Licenze Unite sarà fisso a 590 Gemme. I Pokémon esistenti mantengono i due percorsi mosse come prima. Nel 2026 verranno rilasciati nuovi Pokémon al ritmo di due al mese."
+      },
+      {
+        heading: "Modifiche al Sistema di Apprendimento Mosse in Battaglia",
+        content: "Dal 26 febbraio, le mosse non si scelgono più durante i passaggi di livello in battaglia, ma si impostano in anticipo nella schermata Lista Pokémon o nella Schermata di Preparazione prima della battaglia. Questo evita errori accidentali durante i momenti caotici e migliora il ritmo di gioco."
+      },
+      {
+        heading: "Nuova Modalità Solo",
+        content: "Dal 26 febbraio è disponibile la Modalità Solo, pensata per chi vuole esercitarsi contro la CPU senza la pressione del PvP. Si avanza completando stage in ordine, con composizioni di squadra predefinite. Completando gli stage si ottengono Punti Licenza, Potenziatori Oggetti e Licenze in Prestito. Le ricompense ripetibili (Punti Sparaeos) sono ottenibili fino a 3 volte al giorno. Utile sia per i principianti che per i veterani che vogliono prepararsi alle Ranked!"
+      },
+      {
+        heading: "Groudon Torna nelle Ranked",
+        content: "Dal 26 febbraio lo scenario delle Ranked passerà a Rovine del Cielo di Theia (Groudon). In futuro le Ranked ruoteranno regolarmente tra tre mappe: Rayquaza, Groudon e Kyogre, ognuna con tattiche e selezioni di Pokémon diverse."
+      },
+      {
+        heading: "Super Parata del Panico per i 30 Anni di Pokémon",
+        content: "Dal 27 febbraio torna la modalità Parata del Panico in versione potenziata con Pokémon della regione di Kanto: Gengar, Zapdos, Mewtwo e altri si scaglieranno contro Tinkaton! Partecipando si ottengono Icone Allenatore dei Leggendari Articuno, Zapdos e Moltres."
+      },
+      {
+        heading: "Aggiornamenti al Viaggio Licenze",
+        content: "I Punti Licenza Unite sono ora ottenibili anche come ricompense nella Modalità Solo. Sono in arrivo ottimizzazioni ai metodi di distribuzione giornalieri e un aumento delle Selezioni Speciali per scegliere i Pokémon più liberamente dopo un certo progresso."
+      },
+      {
+        heading: "PUACL 2026 Finals",
+        content: "Il 28 e 29 marzo si terrà a Yokohama la PUACL2026 FINALS (Pokémon UNITE Asia Champions League), con 16 top team che si sfideranno davanti a oltre 5.000 spettatori. Il team vincitore si qualificherà per i WCS2026 di San Francisco ad agosto. L'evento sarà disponibile anche in live streaming sul canale ufficiale."
+      },
+    ],
+  },
+  {
     id: "patch-2026-01-27",
     date: "27 Gennaio 2026",
     title: "Patch di Stabilità e Bilanciamento",
@@ -36,70 +78,6 @@ export const PATCH_NOTES: PatchNote[] = [
       {
         heading: "Correzione Bug",
         content: "Corretto un bug per cui gli attacchi di Empoleon non colpivano Darkrai durante la Mossa Unite di Darkrai."
-      },
-    ],
-  },
-  {
-    id: "patch-spirito-indomabile",
-    date: "22 Gennaio 2026",
-    title: "Spirito Indomabile — Grande Bilanciamento",
-    tag: "Bilanciamento",
-    tagColor: "#f59e0b",
-    summary: "Patch massiccia: buff a Garchomp, Ceruledge, Tinkaton, Darkrai, Charizard e altri. Nerf a Mega Gyarados, Glaceon, Zacian, Vaporeon e altri.",
-    sections: [
-      {
-        heading: "Potenziamenti (Buff)",
-        content: "Garchomp: PS, Difesa, Dif. Sp. e Tasso Critico aumentati per migliorare la resistenza e la minaccia in mischia. Ceruledge: Danni di Abilità Armatura Debole (+33%), Forza Fantasma (+8%, ricarica 10s→9s) e Lama Amara (+10%) aumentati. Tinkaton: Attacco Potenziato cura +20%, Martelgelo danni +25% e rallentamento migliorato (50%→70%), Abbattimento velocità ridotta su se stesso (50%→30%). Trevenant: Martellegno ricarica 9s→8s, danni +10%. Darkrai: Vuotoscuro ricarica 6s→5s, Brutte Intenzioni danni +15%, Ombrartigli danni +10% durante Pulsoscuro, energia Unite ridotta del 10%. Psyduck: Sottomissione danni +15% con propagazione doppia, Psichico ricarica 7.5s→6.5s, riduzione danni Unite 25%→30%. Charizard: Lanciafiamme danni +12%, durata volo Unite 8s→10s. Rapidash di Galar: Magibrillio danni +7.5%, Agilità velocità iniziale aumentata (5%→20%). Comfey: Curaflorale recupero +6%–14%, Fogliamagica ricarica 10s→9s."
-      },
-      {
-        heading: "Indebolimenti (Nerf)",
-        content: "Zacian: Mossa Unite cambiata da Inarrestabile a Resistente alle Limitazioni. Blaziken: Surriscaldamento cambiato da Inarrestabile a Resistente alle Limitazioni. Mega Gyarados: Abilità Rompiforma attacco +25%→+10%, difese +30%→+10%, Cascata (Mega) riduzione ricarica su colpo 30%→10%. Mega Charizard Y: Scudo Unite 20%→10% PS max, velocità Unite 50%→30%. Mewtwo X: Attacco ridotto, Teletrasporto bonus danni 20%→10%, Divinazione danni subiti aumentati 20%→10%, ricarica 9s→10s. Glaceon: Geloscheggia ricarica 5s→6s, danni -8%, energia Unite +11%. Scizor: Difesa da attacchi potenziati 50%→40%, Danzaspada attacco 20%→15%. Vaporeon: Fanghiglia ricarica 8.5s→9s, danni -15%, Retromarcia danni e scudo -15%. Latias: Dragopulsar ricarica 6s→6.5s, recupero -10%."
-      },
-      {
-        heading: "Correzione Bug",
-        content: "Corretti vari bug riguardanti Vaporeon (statistiche al Lv.5 invece che al Lv.4), Mega Lucario (Centripugno utilizzabile dopo fine Mega Evoluzione), e diversi problemi con le mosse di Darkrai (Ombrartigli, Pulsoscuro)."
-      },
-    ],
-  },
-  {
-    id: "patch-2026-01-15",
-    date: "15 Gennaio 2026",
-    title: "Aggiornamento Funzionalità di Gennaio",
-    tag: "Nuove Funzioni",
-    tagColor: "#8b5cf6",
-    summary: "Nuova funzione 'Re-Unite' per rigiocare con la stessa squadra, Quick Chat in lobby, evento Super Magikarp Splash e ritorno della Pallavolo Electrode.",
-    sections: [
-      {
-        heading: "Nuova Funzione: Re-Unite!",
-        content: "Introdotta la funzione \"Re-Unite\" che permette di rigiocare con la stessa squadra. I compagni che premono il pulsante \"Rivincita con questa squadra\" nella schermata dei risultati verranno automaticamente raggruppati per la prossima battaglia. Nella schermata potrai vedere lo stato di ogni compagno: cerchio verde (sta rivedendo i risultati), spunta verde (ha premuto il pulsante), X rossa (è offline o in un'altra schermata)."
-      },
-      {
-        heading: "Quick Chat in Lobby",
-        content: "La Quick Chat è ora disponibile nella schermata lobby! Sono state aggiunte nuove frasi per complimentarsi con la squadra: \"Grazie a tutti! Abbiamo vinto!\", \"Ben giocato! Prendo appunti!\", \"Grazie per il supporto! Il vero MVP sei tu!\"."
-      },
-      {
-        heading: "Inviti alla Chat Vocale",
-        content: "Nelle Partite Classificate dal Grado Master in su, ora è possibile invitare i compagni abbinati a unirsi alla Chat Vocale usando il pulsante microfono nella schermata di selezione Pokémon."
-      },
-      {
-        heading: "Super Magikarp Splash!",
-        content: "Dal 15 al 28 gennaio, l'evento \"Super Magikarp Splash\" è disponibile nelle Lotte Casuali, dove si possono usare solo le licenze di Gyarados e Mega Gyarados. Gioca durante l'evento per ottenere Emblemi Oro!"
-      },
-      {
-        heading: "Ritorno della Pallavolo Electrode!",
-        content: "La Pallavolo Electrode è tornata! È stata aggiunta alle Lotte Rapide così che tutti possano godersi questa modalità in qualsiasi momento."
-      },
-      {
-        heading: "Aggiornamento Modalità Draft",
-        content: "Nella Modalità Draft, la visibilità è stata migliorata: ora è possibile verificare l'ordine di scelta (Prima Scelta / Seconda Scelta)."
-      },
-      {
-        heading: "Stabilità del Gioco",
-        content: "È stato confermato un problema di crash dell'app, principalmente prima dell'inizio delle battaglie in Modalità Draft. L'indagine ha determinato che il problema è causato da fattori complessi. In questo aggiornamento sono state implementate correzioni per migliorare la stabilità."
-      },
-      {
-        heading: "Correzione Bug",
-        content: "Corretti diversi bug: Pawmot (Tuffulmine utilizzabile anche se immobilizzato), icona lampadina Condividi Esp. non visualizzata, Gyarados (direzione Dragosoffio durante Cascata errata), punti bonus errati per giocatori Leggenda in partite con Master."
       },
     ],
   },
