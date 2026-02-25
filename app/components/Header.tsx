@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 import { getPokeImage } from "../data/constants";
 
 const tabs = [
-  { href: "/",       label: "Home" },
-  { href: "/pokemon", label: "Tutti i Pokémon" },
+  { href: "/",           label: "Home" },
+  { href: "/pokemon",    label: "Tutti i Pokémon" },
+  { href: "/classifica", label: "Classifica" },
 ];
 
 export default function Header() {
