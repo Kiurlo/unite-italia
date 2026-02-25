@@ -17,21 +17,27 @@ const roleBadge: Record<string, { bg: string; color: string }> = {
 const RANK_COLORS = ["#FFD700", "#C0C0C0", "#CD7F32"];
 
 function wrGradient(wr: number): string {
-  // DEBUG — rimuovere dopo verifica
-  console.log(`[wrGradient] ${wr} (type: ${typeof wr})`);
-  const MIN = 44, MID = 50, MAX = 58;
-  let c1: string, c2: string;
-  if (wr >= MID) {
-    const t = Math.min((wr - MID) / (MAX - MID), 1);
-    const g1 = Math.round(180 + 75 * t);
-    c1 = `rgb(0,${g1},80)`;
-    c2 = `rgb(0,255,${Math.round(120 + 80 * t)})`;
+  // Range reale dei dati: ~45% → ~58%
+  // Soglia neutra: 50%
+  // Sotto 50: rosso acceso → arancio (più è basso, più è rosso)
+  // Sopra 50: verde chiaro → verde intenso (più è alto, più è saturo)
+
+  if (wr >= 50) {
+    // t va da 0 (=50%) a 1 (=58%)
+    const t = Math.min((wr - 50) / 8, 1);
+    const g = Math.round(160 + 95 * t);      // 160 → 255
+    const b = Math.round(80 - 80 * t);        // 80 → 0
+    const c1 = `rgb(0, ${g}, ${b})`;
+    const c2 = `rgb(${Math.round(40 - 40 * t)}, 255, ${Math.round(120 - 120 * t)})`;
+    return `linear-gradient(90deg, ${c1}, ${c2})`;
   } else {
-    const t = Math.max((wr - MIN) / (MID - MIN), 0);
-    c1 = `rgb(255,${Math.round(30 + 80 * t)},0)`;
-    c2 = `rgb(255,${Math.round(120 + 100 * t)},0)`;
+    // t va da 0 (=50%) a 1 (=44%)
+    const t = Math.min((50 - wr) / 6, 1);
+    const g = Math.round(200 - 170 * t);      // 200 → 30
+    const c1 = `rgb(255, ${g}, 0)`;
+    const c2 = `rgb(255, ${Math.round(g * 0.6)}, 0)`;
+    return `linear-gradient(90deg, ${c1}, ${c2})`;
   }
-  return `linear-gradient(90deg, ${c1}, ${c2})`;
 }
 
 export default function ClassificaPage() {
