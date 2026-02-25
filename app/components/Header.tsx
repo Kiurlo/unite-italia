@@ -167,6 +167,30 @@ export default function Header() {
           pointerEvents: "none",
           zIndex: 5,
         }}>
+          {/* Charizard #6 — glow arancione */}
+          <div style={{ position: "relative", bottom: -38 }}>
+            <img
+              src={getPokeImage(6)}
+              alt="Charizard"
+              style={{
+                width: 168, height: 168,
+                objectFit: "contain",
+                filter: "drop-shadow(0 0 18px rgba(249,115,22,0.9))",
+                animation: "header-float 5.0s ease-in-out 1.2s infinite",
+                display: "block",
+              }}
+            />
+            <div style={{
+              position: "absolute", bottom: -6, left: "50%",
+              transform: "translateX(-50%)",
+              width: 85, height: 20,
+              background: "rgba(249,115,22,0.55)",
+              borderRadius: "50%",
+              filter: "blur(11px)",
+              animation: "pulse-glow 5.0s ease-in-out 1.2s infinite",
+            }} />
+          </div>
+
           {/* Pikachu #25 — glow giallo */}
           <div style={{ position: "relative", bottom: -45 }}>
             <img
@@ -212,30 +236,6 @@ export default function Header() {
               borderRadius: "50%",
               filter: "blur(11px)",
               animation: "pulse-glow 4.4s ease-in-out 0.6s infinite",
-            }} />
-          </div>
-
-          {/* Charizard #6 — glow arancione */}
-          <div style={{ position: "relative", bottom: -38 }}>
-            <img
-              src={getPokeImage(6)}
-              alt="Charizard"
-              style={{
-                width: 168, height: 168,
-                objectFit: "contain",
-                filter: "drop-shadow(0 0 18px rgba(249,115,22,0.9))",
-                animation: "header-float 5.0s ease-in-out 1.2s infinite",
-                display: "block",
-              }}
-            />
-            <div style={{
-              position: "absolute", bottom: -6, left: "50%",
-              transform: "translateX(-50%)",
-              width: 85, height: 20,
-              background: "rgba(249,115,22,0.55)",
-              borderRadius: "50%",
-              filter: "blur(11px)",
-              animation: "pulse-glow 5.0s ease-in-out 1.2s infinite",
             }} />
           </div>
         </div>

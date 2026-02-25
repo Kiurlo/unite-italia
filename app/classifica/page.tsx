@@ -171,19 +171,36 @@ export default function ClassificaPage() {
                   }}>
                     {p.name}
                   </div>
-                  <span style={{
-                    display: "inline-block",
-                    marginTop: 3,
-                    padding: "2px 8px",
-                    borderRadius: 999,
-                    background: badge.bg,
-                    color: badge.color,
-                    fontSize: 11,
-                    fontWeight: 700,
-                    fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)",
-                  }}>
-                    {p.role}
-                  </span>
+                  <div style={{ display: "flex", alignItems: "center", gap: 6, marginTop: 3 }}>
+                    <span style={{
+                      display: "inline-block",
+                      padding: "2px 8px",
+                      borderRadius: 999,
+                      background: badge.bg,
+                      color: badge.color,
+                      fontSize: 11,
+                      fontWeight: 700,
+                      fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)",
+                    }}>
+                      {p.role}
+                    </span>
+                    {p.id === 865 && (
+                      <span style={{
+                        display: "inline-block",
+                        padding: "2px 7px",
+                        borderRadius: 999,
+                        background: "rgba(251,191,36,0.18)",
+                        color: "#fbbf24",
+                        fontSize: 10,
+                        fontWeight: 900,
+                        fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)",
+                        letterSpacing: "0.5px",
+                        border: "1px solid rgba(251,191,36,0.35)",
+                      }}>
+                        NEW
+                      </span>
+                    )}
+                  </div>
                 </div>
 
                 {/* Win Rate */}
