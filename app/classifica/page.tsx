@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { POKEMON } from "../data/pokemon";
-import { getPokeImage } from "../data/constants";
+import { PokeIcon } from "../components/common";
 
 const ROLES = ["Tutti", "Attaccante", "Velocista", "Versatile", "Difensore", "Supporto"];
 
@@ -15,6 +15,24 @@ const roleBadge: Record<string, { bg: string; color: string }> = {
 };
 
 const RANK_COLORS = ["#FFD700", "#C0C0C0", "#CD7F32"];
+
+function wrGradient(wr: number): string {
+  // DEBUG — rimuovere dopo verifica
+  console.log(`[wrGradient] ${wr} (type: ${typeof wr})`);
+  const MIN = 44, MID = 50, MAX = 58;
+  let c1: string, c2: string;
+  if (wr >= MID) {
+    const t = Math.min((wr - MID) / (MAX - MID), 1);
+    const g1 = Math.round(180 + 75 * t);
+    c1 = `rgb(0,${g1},80)`;
+    c2 = `rgb(0,255,${Math.round(120 + 80 * t)})`;
+  } else {
+    const t = Math.max((wr - MIN) / (MID - MIN), 0);
+    c1 = `rgb(255,${Math.round(30 + 80 * t)},0)`;
+    c2 = `rgb(255,${Math.round(120 + 100 * t)},0)`;
+  }
+  return `linear-gradient(90deg, ${c1}, ${c2})`;
+}
 
 export default function ClassificaPage() {
   const [activeRole, setActiveRole] = useState("Tutti");
@@ -37,11 +55,6 @@ export default function ClassificaPage() {
           transform: translateX(3px);
         }
         .pill-btn { transition: all 0.15s; }
-        .wr-text {
-          background-clip: text;
-          -webkit-background-clip: text;
-          -webkit-text-fill-color: transparent;
-        }
       `}</style>
 
       <div style={{ maxWidth: 820, margin: "0 auto" }}>
@@ -111,9 +124,6 @@ export default function ClassificaPage() {
             const rankColor = rank <= 3 ? RANK_COLORS[rank - 1] : "#8b8aad";
             const badge = roleBadge[p.role] ?? { bg: "rgba(255,255,255,0.08)", color: "#ccc" };
             const wr = p.winRate ?? 0;
-            const wrGrad = wr >= 53
-              ? "linear-gradient(90deg, #ff6060, #ffaa00)"
-              : "linear-gradient(90deg, #a06eff, #60aaff)";
             const delta = p.winRateChange ?? 0;
 
             return (
@@ -143,16 +153,7 @@ export default function ClassificaPage() {
                 </div>
 
                 {/* Avatar */}
-                <img
-                  src={getPokeImage(p.id)}
-                  alt={p.name}
-                  width={44}
-                  height={44}
-                  style={{
-                    objectFit: "contain",
-                    filter: "drop-shadow(0 2px 8px rgba(0,0,0,0.55))",
-                  }}
-                />
+                <PokeIcon p={p} size={44} />
 
                 {/* Nome + badge ruolo */}
                 <div>
@@ -180,17 +181,17 @@ export default function ClassificaPage() {
                 </div>
 
                 {/* Win Rate */}
-                <div
-                  className="wr-text"
-                  style={{
-                    fontSize: 20,
-                    fontWeight: 800,
-                    backgroundImage: wrGrad,
-                    minWidth: 84,
-                    textAlign: "right",
-                    fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)",
-                  }}
-                >
+                <div style={{
+                  fontSize: 20,
+                  fontWeight: 800,
+                  backgroundImage: wrGradient(wr),
+                  WebkitBackgroundClip: "text",
+                  WebkitTextFillColor: "transparent",
+                  backgroundClip: "text",
+                  minWidth: 84,
+                  textAlign: "right",
+                  fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)",
+                }}>
                   {wr.toFixed(2)}%
                 </div>
 
