@@ -8,6 +8,7 @@ const tabs = [
   { href: "/",           label: "Home" },
   { href: "/pokemon",    label: "Tutti i Pokémon" },
   { href: "/classifica", label: "Classifica" },
+  { href: "/meta",       label: "Meta" },
 ];
 
 export default function Header() {
