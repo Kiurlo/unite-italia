@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono, Exo_2 } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header";
+import GoogleAnalytics from "./components/GoogleAnalytics";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -33,6 +34,7 @@ export default function RootLayout({
   return (
     <html lang="it">
       <body className={`${geistSans.variable} ${geistMono.variable} ${exo2.variable}`}>
+        <GoogleAnalytics />
         <div style={{
           minHeight: "100vh",
           background: "linear-gradient(180deg,#0f0d1a 0%,#1a1528 30%,#0f0d1a 100%)",
