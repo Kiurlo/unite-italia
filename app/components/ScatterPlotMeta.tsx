@@ -522,7 +522,6 @@ export default function ScatterPlotMeta() {
           {[
             { label: "Pokémon", value: String(viewData.length) },
             { label: "Media WR", value: `${visibleAvgWR.toFixed(2)}%` },
-            { label: "Media PR", value: `${visibleAvgPR.toFixed(2)}%` },
           ].map((s) => (
             <div key={s.label} style={{ textAlign: "center" }}>
               <div style={{ fontSize: 18, fontWeight: 900, color: "#c4b5fd", fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)" }}>

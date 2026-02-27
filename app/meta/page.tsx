@@ -18,33 +18,6 @@ export default function MetaPage() {
 
         {/* ── Intestazione ── */}
         <div style={{ textAlign: "center", marginBottom: 40 }}>
-          <div
-            style={{
-              display: "inline-flex",
-              alignItems: "center",
-              gap: 10,
-              background: "rgba(139,92,246,0.12)",
-              border: "1px solid rgba(139,92,246,0.25)",
-              borderRadius: 999,
-              padding: "6px 18px",
-              marginBottom: 16,
-            }}
-          >
-            <span style={{ fontSize: 16 }}>📊</span>
-            <span
-              style={{
-                fontSize: 12,
-                fontWeight: 700,
-                color: "#c4b5fd",
-                letterSpacing: "0.8px",
-                textTransform: "uppercase",
-                fontFamily: "var(--font-exo2, 'Exo 2', sans-serif)",
-              }}
-            >
-              Analisi del Metagame
-            </span>
-          </div>
-
           <h1
             style={{
               fontSize: "clamp(28px, 5vw, 42px)",
